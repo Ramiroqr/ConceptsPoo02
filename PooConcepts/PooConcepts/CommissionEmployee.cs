@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PooConcepts
 {
-    class CommissionEmployee : Employee
+    public class CommissionEmployee : Employee
     {
         public float CommissionPercentaje { get; set; }
 
